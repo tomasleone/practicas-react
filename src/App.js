@@ -1,9 +1,11 @@
+import React from 'react';
 import './App.css';
 
 function App() {
   const elemento1 = <h1>Hello JSX!</h1>;
   const elemento2 = (
     <div>
+      {/* comentarios */}
       <h1>Mi Título</h1>
       <p>Este es un párrafo.</p>
       <ul>
@@ -13,10 +15,19 @@ function App() {
       </ul>
     </div>
   );
-  return <div>{elemento1}{elemento2}</div>
 
+  const elemento3 = (
+    <div>
+      <h1>Hello World</h1>
+      <p>Lets render this to the DOM</p>
+    </div>
+  );
+
+  return <div>{elemento1}{elemento2}{elemento3}</div>;
 }
 
 export default App;
+
+
 
 

@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import MyComponent from './MyComponent';
+
 
 function App() {
   const elemento1 = <h1>Hello JSX!</h1>;
@@ -23,7 +25,14 @@ function App() {
     </div>
   );
 
-  return <div>{elemento1}{elemento2}{elemento3}</div>;
+  return (
+    <div>
+      {elemento1}
+      {elemento2}
+      {elemento3}
+      <MyComponent />
+    </div>
+  );
 }
 
 export default App;

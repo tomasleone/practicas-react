@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import MyComponent from './MyComponent';
 import MyApp2 from './MyApp2'; // Importa el nuevo componente
+import MyApp3 from './MyApp3'; // Importa el nuevo componente
 
 function App() {
   const elemento1 = <h1>Hello JSX!</h1>;
@@ -32,6 +33,7 @@ function App() {
       {elemento3}
       <MyComponent />
       <MyApp2 /> {/* Añade el nuevo componente */}
+      <MyApp3 /> {/* Usa el nuevo componente */}
     </div>
   );
 }

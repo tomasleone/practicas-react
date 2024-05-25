@@ -10,6 +10,7 @@ function App() {
     <div>
       {/* comentarios */}
       <h1>Mi Título</h1>
+      <div style={{color: "red", fontSize: 72}}>Big Red</div>
       <p>Este es un párrafo.</p>
       <ul>
         <li>Elemento 1</li>
